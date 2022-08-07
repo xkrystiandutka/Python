@@ -106,5 +106,45 @@ print(name + ' ' + str(age))
 print(name, age)
 print('{0} ma {1} lat.'.format(name, age))
 
+# %%
 
+saldo = 40
+print(saldo)
 
+saldo = saldo + 50
+print(saldo)
+
+saldo += 50
+print(saldo)
+
+# %%
+lokata = 1000
+czynnik_akumulacyjny = 1 + 0.04
+lokata_po_roku = lokata * czynnik_akumulacyjny
+print('Wartosc lokaty po roku:', lokata_po_roku)
+
+# %%
+pixel = 150
+pixel /= 255
+print(pixel)
+
+# %%
+base = 2
+base **= 5
+print(base)
+
+# %%
+x = 103
+x %= 10
+print(x)
+
+# %%
+imie = 'Krystian '
+nazwisko = 'Dutka'
+imie += nazwisko
+
+# %%
+name = 'Python '
+version = '3.7'
+name += version
+print(name)
