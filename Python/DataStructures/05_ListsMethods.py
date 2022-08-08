@@ -49,7 +49,7 @@ techs.index('java')
 
 # %%
 
-techs = ['python', 'java', 'sql', 'php', 'python']
+techs inse= ['python', 'java', 'sql', 'php', 'python']
 techs.count('python')
 techs.count('jav')
 
