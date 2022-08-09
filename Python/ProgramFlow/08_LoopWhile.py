@@ -77,3 +77,17 @@ while idx < len(lista_do_przeszukania):
 if not flaga:
     lista_do_przeszukania.append(wartosc)
 
+# %%
+
+numbers = [23, 12, 53, 13, 65, 1, 45]
+flaga = False
+wartosc = 135
+
+idx = 0
+while idx < len(numbers):
+    if numbers[idx] == wartosc:
+        flaga = True
+        print('essa')
+        break
+    
+print('cvhusa')
