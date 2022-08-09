@@ -45,3 +45,43 @@ if number:
     print('Liczba niezerowa!')
 else:
     print('Zero')
+
+# %%
+default_flag = True
+
+if not default_flag:
+    print('Nie doszło')
+else:
+    print('Doszło do defaultu.')
+
+# %%
+saldo = 10000
+klient_zweryfikowany = True
+
+amount = int(input('Ile chcesz wyplacic gotowki: '))
+if saldo > 0 and klient_zweryfikowany and (saldo - amount) > 0:
+    print('Mozesz wyplacic gotowke')
+else:
+    print('Nie mozesz wyplacic gotowki. '
+          'Brak wystarczajacej kwoty {}'.format(abs(saldo-amount)))
+
+# %%
+
+name = 'ython'
+
+if 'p' in name:
+    print('Znaleziono p')
+else:
+    print('Nie znalezino p')
+
+# %%
+tech = 'python'
+if tech == 'python':
+    flag = 'Dobry wybór'
+else:
+    flag = 'Poszukaj czegos lepszego.'
+
+# %%
+# x if [warunek] else y
+tech = 'sas'
+'Dobry wybór' if tech == 'python' else 'Poszukaj czegos lepszego'
