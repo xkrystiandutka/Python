@@ -66,7 +66,3 @@ elif age < 18:
     print('Nie masz uprawnien.')
 elif age > 18:
     print('Dostep przyznany.')
-
-
-
- 
