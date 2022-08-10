@@ -54,3 +54,47 @@ def print_menu():
     print('Koniec programu.')
 
 print_menu()
+
+# %%
+
+def print_even(maximum):
+    even = []
+    for i in range(maximum + 1):
+        if i % 2 == 0:
+            even.append(i)
+    return even
+            
+print_even(10)
+num = print_even(20)
+
+# %%
+
+def write_file(file_name, text):
+    with open(file_name, 'w') as file:
+        print(text, file=file)
+        
+write_file('sample.txt', 'Pierwsza linbia.\nDruga linia.')
+write_file('sample2.txt', 'Pierwsza.\nDruga.\nTrzecia.')
+
+# %%
+
+def calculate_profit(pv,rate,n):
+    return pv * (1+rate)**n - pv
+
+profit = calculate_profit(1020, 0.02, 1)
+
+realProfit = profit * 0.81
+
+print(profit)
+print(realProfit)
+
+# %%
+
+def drukuj_nieparzyste(x):
+    odd = []
+    for i in range(20):
+        if i % 2 == 1:
+            odd.append(i)
+    return odd
+            
+drukuj_nieparzyste(20)
