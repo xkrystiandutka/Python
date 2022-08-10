@@ -32,3 +32,31 @@ def suma_dowol(*args):
 # %%
 # suma(1, 2, 4)
 suma_dowol(1, 2, 3, 5, 3, 5, 2)
+
+# %%
+def funkcja_2(**kwargs):
+    for kwarg in kwargs:
+        print(kwarg)
+
+funkcja_2(**{'a': 1, 'b': 2})
+
+# %%
+def fun(**kwargs):
+    print(kwargs)
+
+# fun(a=1, b=4)
+fun(x1=10, x2=20, x3=30)
+
+# %%
+def fun_2(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+fun_2(1, 2, 4, a=10, b=12)
+
+# %%
+def fun_3(*args, **kwargs):
+    print(sum(args))
+    print(kwargs.values())
+
+fun_3(1, 2, 4, a=10, b=12)
