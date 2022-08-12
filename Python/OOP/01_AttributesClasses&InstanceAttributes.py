@@ -7,7 +7,7 @@ Created on Fri Aug 12 13:14:00 2022
 
 class Tree:
     
-    name = 'Sosna'
+    name = 'Pine'
     age = 45
     hight = 15
     
